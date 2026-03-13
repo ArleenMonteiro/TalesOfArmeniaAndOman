@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="MergeCube2.Left" size="10.000000 10.000000"/>
+        <ImageTarget name="MergeCube2.Front" size="10.000000 10.000000"/>
+        <ImageTarget name="MergeCube2.Right" size="10.000000 10.000000"/>
+        <ImageTarget name="MergeCube2.Top" size="10.000000 10.000000"/>
+        <ImageTarget name="MergeCube2.Bottom" size="10.000000 10.000000"/>
+        <ImageTarget name="MergeCube2.Back" size="10.000000 10.000000"/>
+        <ImageTarget name="MergeCube.Left" size="10.000000 10.000000"/>
+        <ImageTarget name="MergeCube.Front" size="10.000000 10.000000"/>
+        <ImageTarget name="MergeCube.Right" size="10.000000 10.000000"/>
+        <ImageTarget name="MergeCube.Top" size="10.000000 10.000000"/>
+        <ImageTarget name="MergeCube.Bottom" size="10.000000 10.000000"/>
+        <ImageTarget name="MergeCube.Back" size="10.000000 10.000000"/>
+        <MultiTarget name="MergeCube2">
+            <Part name="MergeCube2.Left" translation="-5.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="MergeCube2.Right" translation="5.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="MergeCube2.Front" translation="0 0 5.0" rotation="AD: 1 0 0 0"/>
+            <Part name="MergeCube2.Back" translation="0 0 -5.0" rotation="AD: 0 1 0 180"/>
+            <Part name="MergeCube2.Top" translation="0 5.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="MergeCube2.Bottom" translation="0 -5.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="MergeCube">
+            <Part name="MergeCube.Left" translation="-5.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="MergeCube.Right" translation="5.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="MergeCube.Front" translation="0 0 5.0" rotation="AD: 1 0 0 0"/>
+            <Part name="MergeCube.Back" translation="0 0 -5.0" rotation="AD: 0 1 0 180"/>
+            <Part name="MergeCube.Top" translation="0 5.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="MergeCube.Bottom" translation="0 -5.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
